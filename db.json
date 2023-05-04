@@ -1,18 +1,125 @@
 {
-  "dogs": [
-    {
-      "id": 1,
-      "name": "Cherry",
-      "age": 2,
-      "place": "Visakhapatnam",
-      "gender": "Male"
-    },
-    {
-      "id": 1,
-      "name": "Tommy",
-      "age": 3,
-      "place": "Banglore",
-      "gender": "Female"
-    }
-  ]
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which type of rock is created by intense heat AND pressure?",
+            "correct_answer": "Metamorphic",
+            "incorrect_answers": [
+                "Sedimentary",
+                "Igneous",
+                "Diamond"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the primary addictive substance found in tobacco?",
+            "correct_answer": "Nicotine",
+            "incorrect_answers": [
+                "Cathinone",
+                "Ephedrine",
+                "Glaucine"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "When did Canada leave the confederation to become their own nation?",
+            "correct_answer": "July 1st, 1867",
+            "incorrect_answers": [
+                "July 1st, 1763",
+                "July 1st, 1832",
+                "July 1st, 1902"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who is the author of the manga series &quot;Astro Boy&quot;?",
+            "correct_answer": "Osamu Tezuka",
+            "incorrect_answers": [
+                "Mitsuteri Yokoyama",
+                "Takao Saito",
+                "Yoshihiro Tatsumi"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Valve Corporation is an American video game developer located in which city?",
+            "correct_answer": "Bellevue, Washington",
+            "incorrect_answers": [
+                "Austin, Texas",
+                "Seattle, Washington",
+                "San Francisco, California"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of the game developer who created &quot;Call Of Duty: Zombies&quot;?",
+            "correct_answer": "Treyarch",
+            "incorrect_answers": [
+                "Sledgehammer Games",
+                "Infinity Ward",
+                "Naughty Dog"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+            "correct_answer": "Injection ",
+            "incorrect_answers": [
+                "Broken Authentication",
+                "Cross-Site Scripting",
+                "Insecure Direct Object References"
+            ]
+        },
+        {
+            "category": "Entertainment: Musicals & Theatres",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which Shakespeare play features the stage direction &quot;Enter a messenger, with two heads and a hand&quot;?",
+            "correct_answer": "Titus Andronicus",
+            "incorrect_answers": [
+                "Othello",
+                "Macbeth",
+                "King Lear"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Psych-Horror &quot;Eternal Darkness: Sanity&#039;s Requiem&quot;, developed by Silicon Knights in 2002, was published by who and on what platform?",
+            "correct_answer": "Nintendo&reg; Co. Ltd. | GameCube&trade;",
+            "incorrect_answers": [
+                "Sony&reg; Computer Entertainment&trade; Inc. | PlayStation&reg; 2",
+                "Microsoft&reg; Game Studios&trade; | XBox&trade;",
+                "Sega&reg; Enterprises Co. Ltd. | Dreamcast&trade;"
+            ]
+        },
+        {
+            "category": "Entertainment: Comics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which one of these superhero teams appears in the Invincible comics?",
+            "correct_answer": "Guardians of the Globe",
+            "incorrect_answers": [
+                "Avengers",
+                "Justice League",
+                "Teenage Mutant Ninja Turtles"
+            ]
+        }
+    ]
 }
